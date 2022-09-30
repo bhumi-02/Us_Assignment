@@ -1,0 +1,32 @@
+{
+  "name": "us_assignment",
+  "version": "1.0.0",
+  "description": "Student registration link\r Design normalised DB schema\r Added new student in the DB\r Fetch it and store it in a collection/DAO.\r Read it from the collection/DAO and store it in a redis key.\r Implement find student page using Solr.\r Show it using redis key on a student detail page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhumi-02/Us_Assignment.git"
+  },
+  "keywords": [],
+  "author": "Bhumisuta_Nag",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhumi-02/Us_Assignment/issues"
+  },
+  "homepage": "https://github.com/bhumi-02/Us_Assignment#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1226.0",
+    "bcrypt": "^5.0.1",
+    "express": "^4.18.1",
+    "force": "^0.0.3",
+    "mongoose": "^6.6.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.20",
+    "redis": "^3.1.2",
+    "solr-node": "^1.2.1"
+  }
+}
